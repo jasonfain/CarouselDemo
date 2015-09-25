@@ -18,6 +18,7 @@
 		7D0530221BB33441000BAA7D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530211BB33441000BAA7D /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7D0530241BB33A60000BAA7D /* loginSegue in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530231BB33A60000BAA7D /* loginSegue */; settings = {ASSET_TAGS = (); }; };
 		7D0530281BB36BA5000BAA7D /* alertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530271BB36BA5000BAA7D /* alertViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7D2909341BB4CACA009A1163 /* freeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2909331BB4CACA009A1163 /* freeFormViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7DFD9B191BB37FD3008769AA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD9B181BB37FD3008769AA /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -56,6 +57,7 @@
 		7D0530211BB33441000BAA7D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../IntroViewController.swift; sourceTree = "<group>"; };
 		7D0530231BB33A60000BAA7D /* loginSegue */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = loginSegue; path = ../loginSegue; sourceTree = "<group>"; };
 		7D0530271BB36BA5000BAA7D /* alertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alertViewController.swift; path = ../alertViewController.swift; sourceTree = "<group>"; };
+		7D2909331BB4CACA009A1163 /* freeFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = freeFormViewController.swift; path = ../freeFormViewController.swift; sourceTree = "<group>"; };
 		7DFD9B181BB37FD3008769AA /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,6 +112,7 @@
 				7D0530271BB36BA5000BAA7D /* alertViewController.swift */,
 				7D0530211BB33441000BAA7D /* IntroViewController.swift */,
 				7D052FF11BB3240F000BAA7D /* AppDelegate.swift */,
+				7D2909331BB4CACA009A1163 /* freeFormViewController.swift */,
 				7D052FF31BB3240F000BAA7D /* ViewController.swift */,
 				7DFD9B181BB37FD3008769AA /* SignInViewController.swift */,
 				7D052FF51BB3240F000BAA7D /* Main.storyboard */,
@@ -274,6 +277,7 @@
 				7D052FF41BB3240F000BAA7D /* ViewController.swift in Sources */,
 				7D0530201BB333EA000BAA7D /* Common.swift in Sources */,
 				7D052FF21BB3240F000BAA7D /* AppDelegate.swift in Sources */,
+				7D2909341BB4CACA009A1163 /* freeFormViewController.swift in Sources */,
 				7D0530281BB36BA5000BAA7D /* alertViewController.swift in Sources */,
 				7D0530241BB33A60000BAA7D /* loginSegue in Sources */,
 				7D0530221BB33441000BAA7D /* IntroViewController.swift in Sources */,

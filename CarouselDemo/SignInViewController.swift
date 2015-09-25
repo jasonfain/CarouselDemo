@@ -80,6 +80,7 @@ class SignInViewController: UIViewController {
   })
         
         if emailField.text!.isEmpty {
+            
         } else {
             
       let alertController = UIAlertController(title: "Email Required", message: "Please enter your email address", preferredStyle: .Alert)
@@ -103,26 +104,30 @@ class SignInViewController: UIViewController {
         
         delay(2) {
             
-            if self.emailField.text == "email" && self.passwordField.text == "password" {
+            if self.emailField.text == "e" && self.passwordField.text == "p" {
             
+                self.performSegueWithIdentifier("loginSegue", sender: self)
+    
+            
+                
             } else {
                 
-                let alertController = UIAlertController(title: "Sign In Failed", message: "Please try again", preferredStyle: .Alert)
+            let alertController = UIAlertController(title: "Sign In Failed", message: "Please enter this again", preferredStyle: .Alert)
                 
                 
                 // create an OK action
-                let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
+             let OKAction = UIAlertAction(title: "OK", style: .Default) { (action) in
                     // handle response here.
                 }
                 // add the OK action to the alert controller
-                alertController.addAction(OKAction)
+             alertController.addAction(OKAction)
                 
                 self.presentViewController(alertController, animated: true) {
                     // optional code for what happens after the alert controller has finished presenting
-                }
+              }
 
                 
-                
+      
             }
             
         } //end delay
@@ -140,4 +145,4 @@ class SignInViewController: UIViewController {
     }
     */
 
-}
+  }
