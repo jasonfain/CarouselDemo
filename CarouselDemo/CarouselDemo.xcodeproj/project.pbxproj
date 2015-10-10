@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		7D052FF21BB3240F000BAA7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D052FF11BB3240F000BAA7D /* AppDelegate.swift */; };
 		7D052FF41BB3240F000BAA7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D052FF31BB3240F000BAA7D /* ViewController.swift */; };
-		7D052FF71BB3240F000BAA7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D052FF51BB3240F000BAA7D /* Main.storyboard */; };
 		7D052FF91BB3240F000BAA7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D052FF81BB3240F000BAA7D /* Assets.xcassets */; };
 		7D052FFC1BB3240F000BAA7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D052FFA1BB3240F000BAA7D /* LaunchScreen.storyboard */; };
 		7D0530071BB3240F000BAA7D /* CarouselDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530061BB3240F000BAA7D /* CarouselDemoTests.swift */; };
@@ -18,7 +17,7 @@
 		7D0530221BB33441000BAA7D /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530211BB33441000BAA7D /* IntroViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7D0530241BB33A60000BAA7D /* loginSegue in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530231BB33A60000BAA7D /* loginSegue */; settings = {ASSET_TAGS = (); }; };
 		7D0530281BB36BA5000BAA7D /* alertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0530271BB36BA5000BAA7D /* alertViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		7D2909341BB4CACA009A1163 /* freeFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2909331BB4CACA009A1163 /* freeFormViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		7D2909361BB5BF11009A1163 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2909351BB5BF11009A1163 /* TutorialViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		7DFD9B191BB37FD3008769AA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFD9B181BB37FD3008769AA /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -43,7 +42,6 @@
 		7D052FEE1BB3240F000BAA7D /* CarouselDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarouselDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D052FF11BB3240F000BAA7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D052FF31BB3240F000BAA7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D052FF61BB3240F000BAA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D052FF81BB3240F000BAA7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D052FFB1BB3240F000BAA7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D052FFD1BB3240F000BAA7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,7 +55,8 @@
 		7D0530211BB33441000BAA7D /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IntroViewController.swift; path = ../IntroViewController.swift; sourceTree = "<group>"; };
 		7D0530231BB33A60000BAA7D /* loginSegue */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = loginSegue; path = ../loginSegue; sourceTree = "<group>"; };
 		7D0530271BB36BA5000BAA7D /* alertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = alertViewController.swift; path = ../alertViewController.swift; sourceTree = "<group>"; };
-		7D2909331BB4CACA009A1163 /* freeFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = freeFormViewController.swift; path = ../freeFormViewController.swift; sourceTree = "<group>"; };
+		7D2909351BB5BF11009A1163 /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		7D2909371BB5C207009A1163 /* CarouselDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CarouselDemo.xcodeproj; sourceTree = SOURCE_ROOT; };
 		7DFD9B181BB37FD3008769AA /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignInViewController.swift; path = ../SignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +88,7 @@
 		7D052FE51BB3240F000BAA7D = {
 			isa = PBXGroup;
 			children = (
+				7D2909351BB5BF11009A1163 /* TutorialViewController.swift */,
 				7D052FF01BB3240F000BAA7D /* CarouselDemo */,
 				7D0530051BB3240F000BAA7D /* CarouselDemoTests */,
 				7D0530101BB3240F000BAA7D /* CarouselDemoUITests */,
@@ -112,10 +112,9 @@
 				7D0530271BB36BA5000BAA7D /* alertViewController.swift */,
 				7D0530211BB33441000BAA7D /* IntroViewController.swift */,
 				7D052FF11BB3240F000BAA7D /* AppDelegate.swift */,
-				7D2909331BB4CACA009A1163 /* freeFormViewController.swift */,
 				7D052FF31BB3240F000BAA7D /* ViewController.swift */,
+				7D2909371BB5C207009A1163 /* CarouselDemo.xcodeproj */,
 				7DFD9B181BB37FD3008769AA /* SignInViewController.swift */,
-				7D052FF51BB3240F000BAA7D /* Main.storyboard */,
 				7D0530231BB33A60000BAA7D /* loginSegue */,
 				7D052FF81BB3240F000BAA7D /* Assets.xcassets */,
 				7D052FFA1BB3240F000BAA7D /* LaunchScreen.storyboard */,
@@ -141,6 +140,11 @@
 				7D0530131BB3240F000BAA7D /* Info.plist */,
 			);
 			path = CarouselDemoUITests;
+			sourceTree = "<group>";
+		};
+		7D2909381BB5C207009A1163 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +236,12 @@
 			mainGroup = 7D052FE51BB3240F000BAA7D;
 			productRefGroup = 7D052FEF1BB3240F000BAA7D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7D2909381BB5C207009A1163 /* Products */;
+					ProjectRef = 7D2909371BB5C207009A1163 /* CarouselDemo.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7D052FED1BB3240F000BAA7D /* CarouselDemo */,
@@ -248,7 +258,6 @@
 			files = (
 				7D052FFC1BB3240F000BAA7D /* LaunchScreen.storyboard in Resources */,
 				7D052FF91BB3240F000BAA7D /* Assets.xcassets in Resources */,
-				7D052FF71BB3240F000BAA7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,10 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFD9B191BB37FD3008769AA /* SignInViewController.swift in Sources */,
+				7D2909361BB5BF11009A1163 /* TutorialViewController.swift in Sources */,
 				7D052FF41BB3240F000BAA7D /* ViewController.swift in Sources */,
 				7D0530201BB333EA000BAA7D /* Common.swift in Sources */,
 				7D052FF21BB3240F000BAA7D /* AppDelegate.swift in Sources */,
-				7D2909341BB4CACA009A1163 /* freeFormViewController.swift in Sources */,
 				7D0530281BB36BA5000BAA7D /* alertViewController.swift in Sources */,
 				7D0530241BB33A60000BAA7D /* loginSegue in Sources */,
 				7D0530221BB33441000BAA7D /* IntroViewController.swift in Sources */,
@@ -316,14 +325,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7D052FF51BB3240F000BAA7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D052FF61BB3240F000BAA7D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7D052FFA1BB3240F000BAA7D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

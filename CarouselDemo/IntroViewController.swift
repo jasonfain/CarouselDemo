@@ -17,7 +17,7 @@ class IntroViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        scrollView.contentSize = introImage.image!.size
+
 
         // Do any additional setup after loading the view.
     }
